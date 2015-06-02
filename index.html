@@ -9,7 +9,7 @@
         display: flex;
       }
 
-      #container {
+      #demo {
         flex: 1;
       }
 
@@ -27,10 +27,21 @@
   <body>
     <div id="root">
 
-    <div id="container">
-    </div>
-    <div id="code">
-      <script src="http://gist-it.appspot.com/github/thomasboyt/react-fragment-demo/blob/master/app.js"></script>
+      <div id="demo">
+        <h3>Fragment Demo</h3>
+        <p>
+          The below list renders a <code>&lt;ListItem&gt;</code> for each item in a list.
+          <code>&lt;ListItem&gt;</code> renders a <code>&lt;frag&gt;</code> that contains two
+          <code>&lt;li&gt;</code>s and a remove <code>&lt;button&gt;.</code>
+        </p>
+
+        <div id="container">
+        </div>
+      </div>
+
+      <div id="code">
+        <script src="http://gist-it.appspot.com/github/thomasboyt/react-fragment-demo/blob/master/app.js"></script>
+      </div>
     </div>
 
     <script src="./app.bundle.js"></script>
