@@ -19,6 +19,7 @@
     // functionality stuff
     "new-cap": false,
     "no-shadow": false,
+    "no-trailing-spaces": false,
 
     // react stuff
     "react/jsx-boolean-value": 1,

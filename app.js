@@ -53,7 +53,8 @@ class Main extends React.Component {
   renderItems() {
     return this.state.list.map((num) => {
       return (
-        <ListItems key={num} num={num} onRemove={() => this.handleRemove(num)} />
+        <ListItems key={num} num={num}
+          onRemove={() => this.handleRemove(num)} />
       );
     });
   }
@@ -63,8 +64,9 @@ class Main extends React.Component {
       <frag>
         <h3>Fragment Demo</h3>
         <p>
-          The below list renders a <code>{'<ListItem>'}</code> for each item in a list.{' '}
-          <code>{'<ListItem>'}</code> renders a <code>{'<fragment>'}</code> that contains two{' '}
+          The below list renders a <code>{'<ListItem>'}</code> for each item 
+          in a list. <code>{'<ListItem>'}</code> renders a 
+          <code>{'<fragment>'}</code> that contains two 
           <code>{'<li>'}</code>s and a remove <code>{'<button>'}.</code>
         </p>
         <ul>
