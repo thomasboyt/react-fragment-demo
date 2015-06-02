@@ -187,50 +187,6 @@
 	        'frag',
 	        null,
 	        _reactToolsBuildNpmReact2['default'].createElement(
-	          'h3',
-	          null,
-	          'Fragment Demo'
-	        ),
-	        _reactToolsBuildNpmReact2['default'].createElement(
-	          'p',
-	          null,
-	          'The below list renders a ',
-	          _reactToolsBuildNpmReact2['default'].createElement(
-	            'code',
-	            null,
-	            '<ListItem>'
-	          ),
-	          ' for each',
-	          ' ',
-	          'item in a list. ',
-	          _reactToolsBuildNpmReact2['default'].createElement(
-	            'code',
-	            null,
-	            '<ListItem>'
-	          ),
-	          ' renders a',
-	          ' ',
-	          _reactToolsBuildNpmReact2['default'].createElement(
-	            'code',
-	            null,
-	            '<fragment>'
-	          ),
-	          ' that contains two',
-	          ' ',
-	          _reactToolsBuildNpmReact2['default'].createElement(
-	            'code',
-	            null,
-	            '<li>'
-	          ),
-	          's and a remove ',
-	          _reactToolsBuildNpmReact2['default'].createElement(
-	            'code',
-	            null,
-	            '<button>',
-	            '.'
-	          )
-	        ),
-	        _reactToolsBuildNpmReact2['default'].createElement(
 	          'ul',
 	          null,
 	          this.renderItems()
