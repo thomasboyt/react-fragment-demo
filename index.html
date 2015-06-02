@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ReactFragment demo</title>
+
+    <style>
+      #root {
+        display: flex;
+      }
+
+      #demo {
+        flex: 1;
+      }
+
+      #code {
+        flex: 1;
+      }
+
+      .gist-it-gist .gist-file .gist-data {
+        font-size: 14px !important;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div id="root">
+
+      <div id="demo">
+        <h3>Fragment Demo</h3>
+        <p>
+          The below list renders a <code>&lt;ListItems&gt;</code> component for each item in a list.
+          <code>&lt;ListItems&gt;</code> renders a <code>&lt;frag&gt;</code> that contains two
+          <code>&lt;li&gt;</code>s and a remove <code>&lt;button&gt;.</code>
+        </p>
+
+        <div id="container">
+        </div>
+      </div>
+
+      <div id="code">
+        <script src="http://gist-it.appspot.com/github/thomasboyt/react-fragment-demo/blob/master/app.js"></script>
+      </div>
+    </div>
+
+    <script src="./app.bundle.js"></script>
+  </body>
+</html>
